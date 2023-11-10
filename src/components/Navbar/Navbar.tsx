@@ -14,18 +14,18 @@ const Navbar = () => {
   const pathname = usePathname();
   const [elevated, isElevated] = useState(false);
 
-  
+
 
   useEffect(() => {
 
   }, [])
 
   return (
-    <NavDiv className='fixed z-10 left-1/2 w-[95vw] md:w-[60vw] translate-x-[-50%] mt-5 rounded-[.4rem] py-2 px-2 h-[3.5rem] flex items-center boxshadow-one' $theme={theme}>
+    <NavDiv className='fixed z-10 left-1/2 w-[85vw] md:w-[60vw] translate-x-[-50%] mt-5 rounded-[.4rem] py-2 px-2 h-[3.5rem] flex items-center boxshadow-one' $theme={theme}>
       <div className='w-[100%] flex items-center justify-between h-[100%]'>
         <Link
           href={'/'}
-          className='flex items-center justify-around px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:bg-bg-primary cursor-pointer'
+          className='flex items-center justify-around px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:text-black hover:bg-bg-primary cursor-pointer'
           onMouseEnter={() => setIsMouseOver(true)}
           onMouseLeave={() => setIsMouseOver(false)}
         >
@@ -41,17 +41,17 @@ const Navbar = () => {
 
         <div className='flex justify-around'>
           <div className='flex items-center'>
-            <Link href={"/about"} className={`flex items-center px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:bg-bg-primary cursor-pointer ${pathname == '/about' ? "bg-bg-primary" : "transparent"}`}>
+            <Link href={"/about"} className={`flex items-center px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:text-black hover:bg-bg-primary cursor-pointer ${pathname == '/about' ? "bg-bg-primary" : "transparent"}`}>
               <h1>About</h1>
             </Link>
           </div>
           <div className='flex items-center justify-evenly'>
-            <Link href={"/blog"} className={`flex items-center px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:bg-bg-primary cursor-pointer ${pathname == '/blog' ? "bg-bg-primary" : "transparent"}`}>
+            <Link href={"/blog"} className={`flex items-center px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:text-black hover:bg-bg-primary cursor-pointer ${pathname == '/blog' ? "bg-bg-primary" : "transparent"}`}>
               <h1>Blog</h1>
             </Link>
           </div>
           <div className='flex items-center justify-evenly'>
-            <Link href={"/projects"} className={`flex items-center px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:bg-bg-primary cursor-pointer ${pathname == '/projects' ? "bg-bg-primary" : "transparent"}`}>
+            <Link href={"/projects"} className={`flex items-center px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:text-black hover:bg-bg-primary cursor-pointer ${pathname == '/projects' ? "bg-bg-primary" : "transparent"}`}>
               <h1>Projects</h1>
             </Link>
           </div>

@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar/Navbar';
 
 const page = () => {
   return (
-    <Div $theme={"light"} className='w-[100vw] min-h-screen'>
-      
+    <Div $theme={"dark"} className='w-[100vw] mx-auto min-h-screen'>
+      sas
     </Div>
   )
 }
