@@ -12,9 +12,12 @@ const Navbar = () => {
   const { theme, setTheme } = useTheme();
   const [isMouseOver, setIsMouseOver] = useState(false);
   const pathname = usePathname();
+  const [elevated, isElevated] = useState(false);
+
+  
 
   useEffect(() => {
-    console.log(pathname)
+
   }, [])
 
   return (
