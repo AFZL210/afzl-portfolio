@@ -45,8 +45,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${manrope.variable}`}>
-        <ThemeProvider defaultTheme='system' attribute='class' disableTransitionOnChange enableSystem>
+      <body className={`${manrope.variable} overflow-x-hidden`}>
+        <ThemeProvider defaultTheme='dark' attribute='class' disableTransitionOnChange enableSystem>
           <Navbar />
           {children}
         </ThemeProvider>
