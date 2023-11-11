@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [afzl210](https://afzl-portfolio.vercel.app/)
 
-## Getting Started
+## Stack
 
-First, run the development server:
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Content**: [MDX](https://github.com/mdx-js/mdx) and [contentlayer](https://contentlayer.dev)
+- **Database**: [Supabase](https://supabase.com/)
+- **Deployment**: [Vercel](https://vercel.com)
+
+## Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+.
+|____public
+|____src
+| |____app
+| |____assets
+| |____components
+| | |____ui
+| | |____social-icons
+| | |____styled
+| | |____Navbar
+| | |____Projects
+| |____data
+| |____hooks
+| |____types
+| |____utils
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **`public/*`** - Static assets including images, fonts, audios, files, etc.
+- **`src/app/*`** - Every page and api route in the website. Uses the new [App Router](https://beta.nextjs.org/docs/getting-started#introducing-the-app-router) from [Next.js](https://nextjs.org/) `13.+`
+- **`src/assets/*`** - Fonts and static images used in different components
+- **`src/components/social-icons/*`** - SVG icon paths. Icons come from [Material Icons](https://mui.com/material-ui/material-icons/)
+- **`src/components/ui/*`** - This contain all the common ui components
+- **`src/data/*`** - JSON files containing data for projects
+- **`src/hooks/*`** - A couple hooks used throughout the app
+- **`src/types/*`** - Some types definitions
+- **`src/utils/*`** - More utilities functions but less complex than the ones in `lib`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Running Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This application requires Node.js v16.20+.
 
-## Learn More
+```bash
+git clone https://github.com/AFZL210/afzl-portfolio
+cd afzl-portfolio
+pnpm install
+npm run dev # Remove all of my personal content and files
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Cloning / Forking
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Do not copy it directly, remove all of my personal content and files (resume, blog posts, images, etc.) and please change the styling and colors to match your personal brand. You are free to use this code as inspiration or learning reference but this is not really intended to be a template.
