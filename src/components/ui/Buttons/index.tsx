@@ -10,7 +10,7 @@ interface IconButtonI {
 export const IconButton = (props: IconButtonI) => {
 
     return (
-        <Div className={`w-[100%] h-[100%] flex justify-between px-2 ${props.sx}`}>
+        <Div className={`w-[100%] h-[100%] flex items-center justify-between px-2 ${props.sx}`}>
             {props.icon}
             <span>{props.text}</span>
         </Div>
