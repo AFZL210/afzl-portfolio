@@ -3,7 +3,6 @@ import React from 'react';
 import { Div } from '@/components/styled';
 import { useTheme } from 'next-themes';
 import { IconButton } from '@/components/ui/Buttons';
-import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import { SocialIcon } from '@/components/social-icon';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
