@@ -34,7 +34,8 @@ export const metadata: Metadata = {
   title: 'Afzal Khan - Full Stack Software Engineer',
   description: "I'm a passionate and creative full-stack software engineer from India 🇮🇳. Visit my website to learn more about me and my projects",
   keywords: [
-
+    "Afzal Khan", "Mohd Afzal Khan", "Afzal Khan github",
+    "Software Developer", "Engineer", "Afzal Khan dev"
   ]
 }
 

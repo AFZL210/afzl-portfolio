@@ -17,10 +17,12 @@ import FeaturedProject from '@/components/Projects/FeaturedProject';
 import projectData from '@/data/projects.json';
 import StarIcon from '@mui/icons-material/Star';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import { useWindowSize } from '@/hooks/useWindowSize';
 
-const page = () => {
+const RootPage = () => {
 
   const { theme } = useTheme();
+  const { width } = useWindowSize();
 
   const socialIconSX = [
     {
@@ -32,7 +34,7 @@ const page = () => {
   ]
 
   return (
-    <Div $theme={theme} className='w-[100vw] mx-auto min-h-screen overflow-x-hidden pb-56 '>
+    <Div $theme={theme} className='w-[95vw] mx-auto md:w-[100vw] mx-auto min-h-screen overflow-x-hidden pb-56 '>
       <div className='relative top-[8rem] w-[100vw] md:w-[60vw] mx-auto'>
         <div className='flex items-start justify-between'>
           <div className='w-[70%] flex flex-col'>
@@ -60,7 +62,7 @@ const page = () => {
 
           <div className='w-[30%] h-[100%] flex items-start justify-center'>
             <div className='w-[100%] rounded-full'>
-              <Image src={'/static/profile2022.jpeg'} width={150} height={100} alt='Profile' style={{ borderRadius: "50%" }} className='grayscale-[50%] hover:grayscale-0 cursor-pointer' />
+              <Image src={'/static/profile2022.jpeg'} width={`${width && width <= 450 ? 100 : 150}`} height={100} alt='Profile' style={{ borderRadius: "50%" }} className='grayscale-[50%] hover:grayscale-0 cursor-pointer' />
             </div>
           </div>
         </div>
@@ -95,7 +97,7 @@ const page = () => {
             </div>
             <div className='w-[70%] flex flex-col gap-5 items-start mt-5'>
               {aboutData.hackathons.map((hackathon: string) => {
-                return <div className='flex items-center justify-start gap-3'>
+                return <div key={hackathon} className='flex items-center justify-start gap-3'>
                   <EmojiEventsIcon />
                   <span>{hackathon}</span>
                 </div>
@@ -108,4 +110,4 @@ const page = () => {
   )
 }
 
-export default page
+export default RootPage

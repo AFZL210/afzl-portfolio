@@ -3,7 +3,7 @@ import React from 'react'
 import { Div } from '@/components/styled';
 import { useTheme } from 'next-themes';
 
-const page = () => {
+const ProjectsPage = () => {
 
   const { theme } = useTheme();
 
@@ -14,4 +14,4 @@ const page = () => {
   )
 }
 
-export default page
+export default ProjectsPage

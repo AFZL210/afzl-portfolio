@@ -29,11 +29,11 @@ const Navbar = () => {
   }
 
   return (
-    <NavDiv className='fixed z-10 left-1/2 w-[85vw] md:w-[60vw] translate-x-[-50%] mt-5 rounded-[.4rem] py-2 px-2 h-[3.5rem] flex items-center boxshadow-one' $theme={theme}>
+    <NavDiv className='fixed z-10 left-1/2 w-[95vw] md:w-[60vw] translate-x-[-50%] mt-5 rounded-[.4rem] py-2 px-2 h-[3.5rem] flex items-center boxshadow-one' $theme={theme}>
       <div className='w-[100%] flex items-center justify-between h-[100%]'>
         <Link
           href={'/'}
-          className='flex items-center justify-around px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:text-black hover:bg-bg-primary cursor-pointer'
+          className='flex items-center justify-around px-3 rounded-[.4rem] h-[2.2rem] gap-1 md:gap-4 hover:text-black hover:bg-bg-primary cursor-pointer'
           onMouseEnter={() => setIsMouseOver(true)}
           onMouseLeave={() => setIsMouseOver(false)}
         >
@@ -44,10 +44,10 @@ const Navbar = () => {
             alt='icon'
             style={{ transition: 'transform .5s ease-in-out' }}
           />
-          <h1 className='font-bold'>Afzal Khan</h1>
+          <h1 className='font-bold flex items-center justify-center gap-1'>Afzal<span className='hidden md:flex'>Khan</span></h1>
         </Link>
 
-        <div className='flex justify-around gap-2'>
+        <div className='flex justify-around md:gap-2'>
           <div className='flex items-center'>
             <Link href={"/about"} className={`flex items-center px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:text-black hover:bg-bg-primary cursor-pointer ${pathname == '/about' ? "bg-bg-primary text-black" : "transparent"}`}>
               <h1>About</h1>
