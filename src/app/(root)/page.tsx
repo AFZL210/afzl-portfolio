@@ -48,9 +48,6 @@ const RootPage = () => {
                 <p>Passionate and creative full-stack software engineer from India 🇮🇳</p>
               </div>
               <div className='flex items-center gap-5 mt-4'>
-                <Link href="/about">
-                  <IconButton icon={<PermIdentityIcon style={{ color: theme == "light" ? "white" : "black" }} />} text='More about me' sx={`bg-[#3867d6] p-2 rounded-[.8rem] gap-3 hover:scale-[1.1] cursor-pointer transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-200 text-${theme == "light" ? "white" : "black"}`} />
-                </Link>
                 <div className={`flex items-center justify-evenly gap-1 border ${theme == "light" ? "border-black" : "border-white"} py-1 px-3 rounded-[.8rem]`}>
                   <SocialIcon href={aboutData.links.github} icon={<GitHubIcon sx={socialIconSX} />} sx={`hover:bg-[#e8edf9]`} />
                   <SocialIcon href={aboutData.links.linkedin} icon={<LinkedInIcon sx={socialIconSX} />} sx={`hover:bg-[#e8edf9]`} />
@@ -71,13 +68,13 @@ const RootPage = () => {
             <h1 className='font-bold text-2xl gradient-one'>Featured Projects</h1>
             <div className='flex items-center gap-5'>
               <Link href={aboutData.resume} target='_blank'>
-                <Div className={`flex items-center h-[2.8rem] justify-between gap-2 bg-transparent text-${theme == "light" ? "black" : "white"} border border-${theme == "light" ? "black" : "white"} py-1 px-2 rounded-[.8rem] hover:bg-slate-300 hover:text-black cursor-pointer`}>
+                <Div className={`flex items-center h-[2.8rem] mr-2 justify-between gap-2 bg-transparent text-${theme == "light" ? "black" : "white"} border border-${theme == "light" ? "black" : "white"} py-1 px-2 rounded-[.8rem] hover:bg-slate-300 hover:text-black cursor-pointer`}>
                   <DescriptionIcon sx={{}} />
                   <span>Resume</span>
                 </Div>
               </Link>
               <Link href="/projects" className='h-[2.8rem]'>
-                <IconButton icon={<RemoveRedEyeIcon style={{ color: theme == "light" ? "white" : "black" }} />} text='View All' sx={`bg-[#3867d6] p-2 rounded-[.8rem] gap-1 hover:scale-[1.1] cursor-pointer transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-200 text-${theme == "light" ? "white" : "black"}`} />
+                <IconButton icon={<RemoveRedEyeIcon style={{ color: theme == "light" ? "white" : "black" }} />} text={`View All`} sx={`bg-[#3867d6] md:flex hidden p-2 rounded-[.8rem] gap-1 hover:scale-[1.1] cursor-pointer transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-200 text-${theme == "light" ? "white" : "black"}`} />
               </Link>
             </div>
           </div>
@@ -89,8 +86,8 @@ const RootPage = () => {
           {/** HACKATHONS */}
           <section id="hackathons" className='w-[100%] flex flex-col items-start mt-10'>
             <div className='w-[100%] flex items-center gap-10'>
-              <div className='w-fit flex items-center'>
-                <StarIcon />
+              <div className='w-fit flex items-center gap-2'>
+                <StarIcon sx={{ color: "yellow" }}/>
                 <h1 className='font-bold text-2xl'>Hackathons</h1>
               </div>
               <div className={`w-[80%] h-[.12rem] bg-${theme == "light" ? "black" : "white"}`}></div>

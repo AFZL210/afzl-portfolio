@@ -48,11 +48,6 @@ const Navbar = () => {
         </Link>
 
         <div className='flex justify-around md:gap-2'>
-          <div className='flex items-center'>
-            <Link href={"/about"} className={`flex items-center px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:text-black hover:bg-bg-primary cursor-pointer ${pathname == '/about' ? "bg-bg-primary text-black" : "transparent"}`}>
-              <h1>About</h1>
-            </Link>
-          </div>
           <div className='flex items-center justify-evenly'>
             <Link href={"/blog"} className={`flex items-center px-3 rounded-[.4rem] h-[2.2rem] gap-4 hover:text-black hover:bg-bg-primary cursor-pointer ${pathname == '/blog' ? "bg-bg-primary text-black" : "transparent"}`}>
               <h1>Blog</h1>
