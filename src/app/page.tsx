@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon, ArrowRightIcon, StarFilledIcon, StarIcon } from "@radix-ui/react-icons";
+import { GitHubLogoIcon, LinkedInLogoIcon, TwitterLogoIcon, StarFilledIcon, StarIcon } from "@radix-ui/react-icons";
 import data from '@/data/data.json';
-import { Button } from "@/components/ui/button";
 import FeaturedProject from "@/components/ui/FeaturedProject";
 import Experience from "@/components/ui/Experience";
 

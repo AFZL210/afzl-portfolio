@@ -20,7 +20,7 @@ export default function RootLayout({
       <body
         className={`${sourceCodePro.className} antialiased bg-bgprimary`}
       >
-        <div className="w-[900px] h-fit mx-auto flex flex-col justify-start items-start">
+        <div className="w-[90vw] md:w-[900px] h-fit mx-auto flex flex-col justify-start items-start">
           <Navbar />
           {children}
         </div>

@@ -8,7 +8,7 @@
           "heading": "ZipLink - URL Shortner",
           "demoUrl": "https://zip.afzl.tech/",
           "githubUrl": "https://github.com/AFZL210/ZipLink",
-          "tech": ["NextJS/NextAuth", "TypeScript", "Prisma", "PostgresQL"],
+          "tech": ["Next.js", "TypeScript", "Prisma", "PostgresQL"],
           "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706763/279118912-f1621859-7fa0-4bdd-be39-c8cc0e848f8f_y10rxm.mp4?_s=vp-1.7.0",
           "description": "ZipLink is a feature-rich URL shortener and link management tool."
         },
@@ -17,7 +17,7 @@
           "heading": "TicTacPro - PvP TicTacToe",
           "demoUrl": "https://github.com/AFZL210/TicTacToePro",
           "githubUrl": "https://github.com/AFZL210/TicTacToePro",
-          "tech": ["WebSockets", "ReactJS", "Node.js", "Minimax Algorithm"],
+          "tech": ["WebSockets", "React.js", "Node.js"],
           "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706469/yudnbjqkdzpca1tnlx4k.mp4?_s=vp-1.7.0",
           "description": "Unbeatable TicTacToe bot implemented with Minimax algorithm, and live PvP mode."
         },

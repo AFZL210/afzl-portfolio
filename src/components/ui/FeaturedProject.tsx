@@ -17,12 +17,12 @@ const FeaturedProject: React.FC<FeaturedProjectI> = (props) => {
         <div className='flex flex-col w-[100%] items-start'>
       <span className='text-[#a29a59]'>{props.subHeading}</span>
       <h1 className='font-bold text-xl'>{props.heading}</h1>
-      <div className={`mt-2 w-[100%] h-[32rem] flex flex-col boxshadow-one px-3 rounded-md gap-4 items-center justify-center`}>
-        <div className='w-[90%] mx-auto h-[20rem]'>
+      <div className={`mt-2 w-[100%] h-[24rem] md:h-[32rem] flex flex-col boxshadow-one px-3 rounded-md gap-4 items-center justify-center`}>
+        <div className='w-[90%] mx-auto h-[10rem] md:h-[20rem]'>
           <video autoPlay src={props.video} className='w-[100%] h-[100%]' />
         </div>
         <span>{props.description}</span>
-        <div className='w-[100%] flex items-center justify-around'>
+        <div className='w-[100%] flex flex-wrap items-center justify-around'>
           <Link href={props.githubUrl} target='_blank' className='w-[45%] py-1 flex items-center justify-center'>
             <div className={`w-[100%] py-1 rounded-[.8rem] cursor-pointer flex items-center justify-center gap-2 border`}>
               <GitHubLogoIcon />
