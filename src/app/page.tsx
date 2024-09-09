@@ -22,6 +22,16 @@ export interface ExperienceData {
   technologies: string[];
 }
 
+export interface FeaturedProjectI {
+  demoUrl: string,
+  githubUrl: string,
+  subHeading: string,
+  heading: string,
+  description: string,
+  tech: string[],
+  video: string
+}
+
 export default function Home() {
   const experience: ExperienceData[] = data.experience;
   return (
@@ -65,7 +75,7 @@ export default function Home() {
           <div className={`w-[80%] h-[.12rem] bg-white`}></div>
         </div>
         <div className="flex flex-col gap-8">
-          {data.featuredProjects.map((project: any, index: number) => {
+          {data.featuredProjects.map((project: FeaturedProjectI, index: number) => {
             return (
               <FeaturedProject
                 key={index}

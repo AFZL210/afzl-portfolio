@@ -1,16 +1,6 @@
 import Link from "next/link";
 import { GitHubLogoIcon, GlobeIcon } from "@radix-ui/react-icons";
-
-
-interface FeaturedProjectI {
-    demoUrl: string,
-    githubUrl: string,
-    subHeading: string,
-    heading: string,
-    description: string,
-    tech: string[],
-    video: string
-}
+import { FeaturedProjectI } from "@/app/page";
 
 const FeaturedProject: React.FC<FeaturedProjectI> = (props) => {
     return (
