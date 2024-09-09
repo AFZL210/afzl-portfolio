@@ -78,5 +78,17 @@
           "video": "https://res.cloudinary.com/primeflix/video/upload/v1702214549/l5rwmnua5ehkbi0ty4jc.mp4",
           "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
         }
-      ]
+    ],
+    "links": {
+        "github": "https://github.com/AFZL210",
+        "linkedin": "https://www.linkedin.com/in/afzal-khan-802109208",
+        "twitter": "https://twitter.com/afzalkhan10102"
+      },
+    
+      "hackathons": [
+        "Secured the second position in HACKMAIT 3.0 among 75+ participating teams, organized by IOSD-MAIT.",
+        "Achieved the second position in HTC 2.0 among 100+ participating teams, organized by BVP-ISTE."
+      ],
+    
+      "resume": "https://drive.google.com/file/d/1u6r7Edq1JeCPy-V8SwMSggbYmgKO8RcK/view?usp=sharing"
 }

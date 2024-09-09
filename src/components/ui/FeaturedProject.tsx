@@ -38,7 +38,7 @@ const FeaturedProject: React.FC<FeaturedProjectI> = (props) => {
           </Link>
         </div>
         <div className='w-[100%] flex items-start justify-center gap-3 mt-2'>
-          {props.tech.map((t) => { return <span className='text-[#a29a59]'>{t}</span> })}
+          {props.tech.map((t, index) => { return <span key={index} className='text-[#a29a59]'>{t}</span> })}
         </div>
       </div>
     </div>
