@@ -90,5 +90,25 @@
         "Achieved the second position in HTC 2.0 among 100+ participating teams, organized by BVP-ISTE."
       ],
     
-      "resume": "https://drive.google.com/file/d/1u6r7Edq1JeCPy-V8SwMSggbYmgKO8RcK/view?usp=sharing"
-}
+      "resume": "https://drive.google.com/file/d/1u6r7Edq1JeCPy-V8SwMSggbYmgKO8RcK/view?usp=sharing",
+      "experience": [
+        {
+          "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1725892658/blcoak3et6bsgwbta5hn.png",
+          "companyName": "Google Summer of Code",
+          "position": "Student Developer",
+          "start": "May 2024",
+          "end": "Aug 2024",
+          "description": "Worked on building scalable and efficient web applications using React, Node.js, and various other technologies.",
+          "technologies": ["Angular", "TypeScript", "Python"]
+        },
+        {
+          "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1725893356/nbtpu9j4yh8osrnucabz.png",
+          "companyName": "Tripo Saints",
+          "position": "Full Stack Developer Intern",
+          "start": "Mar 2023",
+          "end": "Jun 2023",
+          "description": "Gained experience in full-stack development, contributing to the company's web platform.",
+          "technologies": ["Angular", "TypeScript", "Python"]
+        }
+      ]
+    }
