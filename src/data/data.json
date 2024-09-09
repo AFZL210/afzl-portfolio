@@ -90,7 +90,7 @@
         "Achieved the second position in HTC 2.0 among 100+ participating teams, organized by BVP-ISTE."
       ],
     
-      "resume": "https://drive.google.com/file/d/1u6r7Edq1JeCPy-V8SwMSggbYmgKO8RcK/view?usp=sharing",
+      "resume": "https://drive.google.com/file/d/1S1uWGSHsu3iL5bM7RvUGnTPZqFcrZcTv/view?usp=sharing",
       "experience": [
         {
           "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1725892658/blcoak3et6bsgwbta5hn.png",
@@ -98,7 +98,7 @@
           "position": "Student Developer",
           "start": "May 2024",
           "end": "Aug 2024",
-          "description": "Worked on building scalable and efficient web applications using React, Node.js, and various other technologies.",
+          "description": "Worked on multiple classrooms feature, creating an admin dashboard, learner-facing pages, and UI components.",
           "technologies": ["Angular", "TypeScript", "Python"]
         },
         {
@@ -107,8 +107,9 @@
           "position": "Full Stack Developer Intern",
           "start": "Mar 2023",
           "end": "Jun 2023",
-          "description": "Gained experience in full-stack development, contributing to the company's web platform.",
-          "technologies": ["Angular", "TypeScript", "Python"]
+          "description": "Designed RESTful APIs with Node.js, used Redis for caching, and created responsive pages with React.js and Tailwind CSS.",
+          "technologies": ["React.js", "JavaScript", "MongoDB", "Express"]
         }
-      ]
-    }
+    ],
+    "email": "ak341668@gmail.com"
+}
