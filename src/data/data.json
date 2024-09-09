@@ -1,0 +1,82 @@
+{
+    "github": "https://github.com/AFZL210",
+    "twitter": "https://x.com/afzalkhan10102",
+    "linkedin": "https://www.linkedin.com/in/afzal-khan-dev/",
+    "featuredProjects": [
+        {
+          "subHeading": "ZipLink",
+          "heading": "ZipLink - URL Shortner",
+          "demoUrl": "https://zip.afzl.tech/",
+          "githubUrl": "https://github.com/AFZL210/ZipLink",
+          "tech": ["NextJS/NextAuth", "TypeScript", "Prisma", "PostgresQL"],
+          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706763/279118912-f1621859-7fa0-4bdd-be39-c8cc0e848f8f_y10rxm.mp4?_s=vp-1.7.0",
+          "description": "ZipLink is a feature-rich URL shortener and link management tool."
+        },
+        {
+          "subHeading": "TicTacPro",
+          "heading": "TicTacPro - PvP TicTacToe",
+          "demoUrl": "https://github.com/AFZL210/TicTacToePro",
+          "githubUrl": "https://github.com/AFZL210/TicTacToePro",
+          "tech": ["WebSockets", "ReactJS", "Node.js", "Minimax Algorithm"],
+          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706469/yudnbjqkdzpca1tnlx4k.mp4?_s=vp-1.7.0",
+          "description": "Unbeatable TicTacToe bot implemented with Minimax algorithm, and live PvP mode."
+        },
+        {
+          "subHeading": "Bloggo",
+          "heading": "Bloggo - Blogging app inspired by medium.com",
+          "demoUrl": "https://blogg0-client.onrender.com/",
+          "githubUrl": "hhttps://github.com/AFZL210/blogg0",
+          "tech": ["NextJS", "TypeScript", "MongoDB"],
+          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699708086/253728976-1ca7939a-1300-4c0a-8e76-abb2b0f4c3d4_trcee0.webm?_s=vp-1.7.0",
+          "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
+        }
+      ],
+      
+      "allProjects": [
+        {
+          "subHeading": "ZipLink",
+          "heading": "ZipLink - URL Shortner",
+          "demoUrl": "https://zip.afzl.tech/",
+          "githubUrl": "https://github.com/AFZL210/ZipLink",
+          "tech": ["NextJS/NextAuth", "TypeScript", "Prisma", "PostgresQL"],
+          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706763/279118912-f1621859-7fa0-4bdd-be39-c8cc0e848f8f_y10rxm.mp4?_s=vp-1.7.0",
+          "description": "ZipLink is a feature-rich URL shortener and link management tool."
+        },
+        {
+          "subHeading": "TicTacPro",
+          "heading": "TicTacPro - PvP TicTacToe",
+          "demoUrl": "https://github.com/AFZL210/TicTacToePro",
+          "githubUrl": "https://github.com/AFZL210/TicTacToePro",
+          "tech": ["WebSockets", "ReactJS", "Node.js", "Minimax Algorithm"],
+          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706469/yudnbjqkdzpca1tnlx4k.mp4?_s=vp-1.7.0",
+          "description": "Unbeatable TicTacToe bot implemented with Minimax algorithm, and live PvP mode."
+        },
+        {
+          "subHeading": "Bloggo",
+          "heading": "Bloggo - Blogging app inspired by medium.com",
+          "demoUrl": "https://blogg0-client.onrender.com/",
+          "githubUrl": "https://github.com/AFZL210/blogg0",
+          "tech": ["NextJS", "TypeScript", "MongoDB"],
+          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699708086/253728976-1ca7939a-1300-4c0a-8e76-abb2b0f4c3d4_trcee0.webm?_s=vp-1.7.0",
+          "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
+        },
+        {
+          "subHeading": "CryptoTracker",
+          "heading": "CryptoTracker - Real-time Cryptocurrency Price Monitoring App",
+          "demoUrl": "https://cryptotracker-vgdc.onrender.com/",
+          "githubUrl": "https://github.com/AFZL210/CryptoTracker",
+          "tech": ["React", "JavaScript", "CoinGecko API"],
+          "video": "https://res.cloudinary.com/primeflix/video/upload/v1702214692/gyaxec8suxpusyov59gy.webm",
+          "description": "Stay informed with real-time updates on cryptocurrency prices with CryptoTracker."
+        },
+        {
+          "subHeading": "SaleSpy",
+          "heading": "SalyeSpy - Amazon price drop alert bot.",
+          "demoUrl": "https://github.com/AFZL210/SaleSpy",
+          "githubUrl": "https://github.com/AFZL210/SaleSpy",
+          "tech": ["Express", "twilio", "axios", "cheerio"],
+          "video": "https://res.cloudinary.com/primeflix/video/upload/v1702214549/l5rwmnua5ehkbi0ty4jc.mp4",
+          "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
+        }
+      ]
+}

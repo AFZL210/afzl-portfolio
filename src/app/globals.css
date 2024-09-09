@@ -89,3 +89,15 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+.gradient-one {
+  background-image: linear-gradient(
+    to right,
+    #904e95,
+    #e96443
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
