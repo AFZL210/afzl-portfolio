@@ -1,115 +1,124 @@
 {
+  "github": "https://github.com/AFZL210",
+  "twitter": "https://x.com/afzalkhan10102",
+  "linkedin": "https://www.linkedin.com/in/afzal-khan-dev/",
+  "featuredProjects": [
+    {
+      "subHeading": "ZipLink",
+      "heading": "ZipLink - URL Shortner",
+      "demoUrl": "https://zip.afzl.tech/",
+      "githubUrl": "https://github.com/AFZL210/ZipLink",
+      "tech": ["Next.js", "TypeScript", "Prisma", "PostgresQL"],
+      "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706763/279118912-f1621859-7fa0-4bdd-be39-c8cc0e848f8f_y10rxm.mp4?_s=vp-1.7.0",
+      "description": "ZipLink is a feature-rich URL shortener and link management tool."
+    },
+    {
+      "subHeading": "TicTacPro",
+      "heading": "TicTacPro - PvP TicTacToe",
+      "demoUrl": "https://github.com/AFZL210/TicTacToePro",
+      "githubUrl": "https://github.com/AFZL210/TicTacToePro",
+      "tech": ["WebSockets", "React.js", "Node.js"],
+      "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706469/yudnbjqkdzpca1tnlx4k.mp4?_s=vp-1.7.0",
+      "description": "Unbeatable TicTacToe bot implemented with Minimax algorithm, and live PvP mode."
+    },
+    {
+      "subHeading": "Bloggo",
+      "heading": "Bloggo - Blogging app inspired by medium.com",
+      "demoUrl": "https://blogg0-client.onrender.com/",
+      "githubUrl": "hhttps://github.com/AFZL210/blogg0",
+      "tech": ["NextJS", "TypeScript", "MongoDB"],
+      "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699708086/253728976-1ca7939a-1300-4c0a-8e76-abb2b0f4c3d4_trcee0.webm?_s=vp-1.7.0",
+      "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
+    }
+  ],
+
+  "allProjects": [
+    {
+      "subHeading": "ZipLink",
+      "heading": "ZipLink - URL Shortner",
+      "demoUrl": "https://zip.afzl.tech/",
+      "githubUrl": "https://github.com/AFZL210/ZipLink",
+      "tech": ["NextJS/NextAuth", "TypeScript", "Prisma", "PostgresQL"],
+      "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706763/279118912-f1621859-7fa0-4bdd-be39-c8cc0e848f8f_y10rxm.mp4?_s=vp-1.7.0",
+      "description": "ZipLink is a feature-rich URL shortener and link management tool."
+    },
+    {
+      "subHeading": "TicTacPro",
+      "heading": "TicTacPro - PvP TicTacToe",
+      "demoUrl": "https://github.com/AFZL210/TicTacToePro",
+      "githubUrl": "https://github.com/AFZL210/TicTacToePro",
+      "tech": ["WebSockets", "ReactJS", "Node.js", "Minimax Algorithm"],
+      "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706469/yudnbjqkdzpca1tnlx4k.mp4?_s=vp-1.7.0",
+      "description": "Unbeatable TicTacToe bot implemented with Minimax algorithm, and live PvP mode."
+    },
+    {
+      "subHeading": "Bloggo",
+      "heading": "Bloggo - Blogging app inspired by medium.com",
+      "demoUrl": "https://blogg0-client.onrender.com/",
+      "githubUrl": "https://github.com/AFZL210/blogg0",
+      "tech": ["NextJS", "TypeScript", "MongoDB"],
+      "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699708086/253728976-1ca7939a-1300-4c0a-8e76-abb2b0f4c3d4_trcee0.webm?_s=vp-1.7.0",
+      "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
+    },
+    {
+      "subHeading": "CryptoTracker",
+      "heading": "CryptoTracker - Real-time Cryptocurrency Price Monitoring App",
+      "demoUrl": "https://cryptotracker-vgdc.onrender.com/",
+      "githubUrl": "https://github.com/AFZL210/CryptoTracker",
+      "tech": ["React", "JavaScript", "CoinGecko API"],
+      "video": "https://res.cloudinary.com/primeflix/video/upload/v1702214692/gyaxec8suxpusyov59gy.webm",
+      "description": "Stay informed with real-time updates on cryptocurrency prices with CryptoTracker."
+    },
+    {
+      "subHeading": "SaleSpy",
+      "heading": "SalyeSpy - Amazon price drop alert bot.",
+      "demoUrl": "https://github.com/AFZL210/SaleSpy",
+      "githubUrl": "https://github.com/AFZL210/SaleSpy",
+      "tech": ["Express", "twilio", "axios", "cheerio"],
+      "video": "https://res.cloudinary.com/primeflix/video/upload/v1702214549/l5rwmnua5ehkbi0ty4jc.mp4",
+      "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
+    }
+  ],
+  "links": {
     "github": "https://github.com/AFZL210",
-    "twitter": "https://x.com/afzalkhan10102",
-    "linkedin": "https://www.linkedin.com/in/afzal-khan-dev/",
-    "featuredProjects": [
-        {
-          "subHeading": "ZipLink",
-          "heading": "ZipLink - URL Shortner",
-          "demoUrl": "https://zip.afzl.tech/",
-          "githubUrl": "https://github.com/AFZL210/ZipLink",
-          "tech": ["Next.js", "TypeScript", "Prisma", "PostgresQL"],
-          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706763/279118912-f1621859-7fa0-4bdd-be39-c8cc0e848f8f_y10rxm.mp4?_s=vp-1.7.0",
-          "description": "ZipLink is a feature-rich URL shortener and link management tool."
-        },
-        {
-          "subHeading": "TicTacPro",
-          "heading": "TicTacPro - PvP TicTacToe",
-          "demoUrl": "https://github.com/AFZL210/TicTacToePro",
-          "githubUrl": "https://github.com/AFZL210/TicTacToePro",
-          "tech": ["WebSockets", "React.js", "Node.js"],
-          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706469/yudnbjqkdzpca1tnlx4k.mp4?_s=vp-1.7.0",
-          "description": "Unbeatable TicTacToe bot implemented with Minimax algorithm, and live PvP mode."
-        },
-        {
-          "subHeading": "Bloggo",
-          "heading": "Bloggo - Blogging app inspired by medium.com",
-          "demoUrl": "https://blogg0-client.onrender.com/",
-          "githubUrl": "hhttps://github.com/AFZL210/blogg0",
-          "tech": ["NextJS", "TypeScript", "MongoDB"],
-          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699708086/253728976-1ca7939a-1300-4c0a-8e76-abb2b0f4c3d4_trcee0.webm?_s=vp-1.7.0",
-          "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
-        }
-      ],
-      
-      "allProjects": [
-        {
-          "subHeading": "ZipLink",
-          "heading": "ZipLink - URL Shortner",
-          "demoUrl": "https://zip.afzl.tech/",
-          "githubUrl": "https://github.com/AFZL210/ZipLink",
-          "tech": ["NextJS/NextAuth", "TypeScript", "Prisma", "PostgresQL"],
-          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706763/279118912-f1621859-7fa0-4bdd-be39-c8cc0e848f8f_y10rxm.mp4?_s=vp-1.7.0",
-          "description": "ZipLink is a feature-rich URL shortener and link management tool."
-        },
-        {
-          "subHeading": "TicTacPro",
-          "heading": "TicTacPro - PvP TicTacToe",
-          "demoUrl": "https://github.com/AFZL210/TicTacToePro",
-          "githubUrl": "https://github.com/AFZL210/TicTacToePro",
-          "tech": ["WebSockets", "ReactJS", "Node.js", "Minimax Algorithm"],
-          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706469/yudnbjqkdzpca1tnlx4k.mp4?_s=vp-1.7.0",
-          "description": "Unbeatable TicTacToe bot implemented with Minimax algorithm, and live PvP mode."
-        },
-        {
-          "subHeading": "Bloggo",
-          "heading": "Bloggo - Blogging app inspired by medium.com",
-          "demoUrl": "https://blogg0-client.onrender.com/",
-          "githubUrl": "https://github.com/AFZL210/blogg0",
-          "tech": ["NextJS", "TypeScript", "MongoDB"],
-          "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699708086/253728976-1ca7939a-1300-4c0a-8e76-abb2b0f4c3d4_trcee0.webm?_s=vp-1.7.0",
-          "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
-        },
-        {
-          "subHeading": "CryptoTracker",
-          "heading": "CryptoTracker - Real-time Cryptocurrency Price Monitoring App",
-          "demoUrl": "https://cryptotracker-vgdc.onrender.com/",
-          "githubUrl": "https://github.com/AFZL210/CryptoTracker",
-          "tech": ["React", "JavaScript", "CoinGecko API"],
-          "video": "https://res.cloudinary.com/primeflix/video/upload/v1702214692/gyaxec8suxpusyov59gy.webm",
-          "description": "Stay informed with real-time updates on cryptocurrency prices with CryptoTracker."
-        },
-        {
-          "subHeading": "SaleSpy",
-          "heading": "SalyeSpy - Amazon price drop alert bot.",
-          "demoUrl": "https://github.com/AFZL210/SaleSpy",
-          "githubUrl": "https://github.com/AFZL210/SaleSpy",
-          "tech": ["Express", "twilio", "axios", "cheerio"],
-          "video": "https://res.cloudinary.com/primeflix/video/upload/v1702214549/l5rwmnua5ehkbi0ty4jc.mp4",
-          "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
-        }
-    ],
-    "links": {
-        "github": "https://github.com/AFZL210",
-        "linkedin": "https://www.linkedin.com/in/afzal-khan-802109208",
-        "twitter": "https://twitter.com/afzalkhan10102"
-      },
-    
-      "hackathons": [
-        "Secured the second position in HACKMAIT 3.0 among 75+ participating teams, organized by IOSD-MAIT.",
-        "Achieved the second position in HTC 2.0 among 100+ participating teams, organized by BVP-ISTE."
-      ],
-    
-      "resume": "https://drive.google.com/file/d/1S1uWGSHsu3iL5bM7RvUGnTPZqFcrZcTv/view?usp=sharing",
-      "experience": [
-        {
-          "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1725892658/blcoak3et6bsgwbta5hn.png",
-          "companyName": "Google Summer of Code",
-          "position": "Student Developer",
-          "start": "May 2024",
-          "end": "Aug 2024",
-          "description": "Worked on multiple classrooms feature, created an admin dashboard, learner-facing pages, and UI components.",
-          "technologies": ["Angular", "TypeScript", "Python"]
-        },
-        {
-          "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1725893356/nbtpu9j4yh8osrnucabz.png",
-          "companyName": "Tripo Saints",
-          "position": "Full Stack Developer Intern",
-          "start": "Mar 2023",
-          "end": "Jun 2023",
-          "description": "Designed RESTful APIs with Node.js, used Redis for caching, and created responsive pages with React.js and Tailwind CSS.",
-          "technologies": ["React.js", "JavaScript", "MongoDB", "Express"]
-        }
-    ],
-    "email": "ak341668@gmail.com"
+    "linkedin": "https://www.linkedin.com/in/afzal-khan-802109208",
+    "twitter": "https://twitter.com/afzalkhan10102"
+  },
+
+  "hackathons": [
+    "Secured the second position in HACKMAIT 3.0 among 75+ participating teams, organized by IOSD-MAIT.",
+    "Achieved the second position in HTC 2.0 among 100+ participating teams, organized by BVP-ISTE."
+  ],
+
+  "resume": "https://drive.google.com/file/d/1S1uWGSHsu3iL5bM7RvUGnTPZqFcrZcTv/view?usp=sharing",
+  "experience": [
+    {
+      "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1732370876/ofbbhsw167aj2qzuuun7.webp",
+      "companyName": "Zenskar",
+      "position": "Frontend Engineer Intern",
+      "start": "Oct 2024",
+      "end": "Present",
+      "description": "Working on creating intuitive interfaces for a modern quote-to-cash platform.",
+      "technologies": ["React.js", "TypeScript", "TailwindCSS"]
+    },
+    {
+      "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1725892658/blcoak3et6bsgwbta5hn.png",
+      "companyName": "Google Summer of Code",
+      "position": "Student Developer",
+      "start": "May 2024",
+      "end": "Aug 2024",
+      "description": "Worked on multiple classrooms feature, created an admin dashboard, learner-facing pages, and UI components.",
+      "technologies": ["Angular", "TypeScript", "Python"]
+    },
+    {
+      "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1725893356/nbtpu9j4yh8osrnucabz.png",
+      "companyName": "Tripo Saints",
+      "position": "Full Stack Developer Intern",
+      "start": "Mar 2023",
+      "end": "Jun 2023",
+      "description": "Designed RESTful APIs with Node.js, used Redis for caching, and created responsive pages with React.js and Tailwind CSS.",
+      "technologies": ["React.js", "JavaScript", "MongoDB", "Express"]
+    }
+  ],
+  "email": "ak341668@gmail.com"
 }
