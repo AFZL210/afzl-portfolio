@@ -42,7 +42,7 @@ export default function Home() {
             <h1 className="text-3xl">👋 Hello!</h1>
             <h1 className="text-3xl">I'm Afzal Khan</h1>
             <p className="font-medium">
-              Passionate and creative full-stack software engineer from India 🇮🇳
+               software engineer and B.Tech undergraduate
             </p>
           </div>
           <div className="flex items-center gap-6 justify-around">
