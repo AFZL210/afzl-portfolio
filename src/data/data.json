@@ -6,8 +6,8 @@
     {
       "subHeading": "Judge1",
       "heading": "Judge1 - Remote Code Execution Engine",
-      "demoUrl": "https://zip.afzl.tech/",
-      "githubUrl": "https://github.com/AFZL210/ZipLink",
+      "demoUrl": null,
+      "githubUrl": "https://github.com/AFZL210/Judge1",
       "tech": ["TypeScript", "Docker", "BullMQ", "PostgresQL", "Prisma"],
       "video": "https://private-user-images.githubusercontent.com/79896602/399299371-b9ae7aec-e70e-49d4-8d49-1658e338da98.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU1NjYzMDksIm5iZiI6MTczNTU2NjAwOSwicGF0aCI6Ii83OTg5NjYwMi8zOTkyOTkzNzEtYjlhZTdhZWMtZTcwZS00OWQ0LThkNDktMTY1OGUzMzhkYTk4Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjMwVDEzNDAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY4YWYwMTQ1ZjI5ODNlNTM4ODY2MGFkZjU3ZjhiZGMwMDNiODdhMzg5MmNlZjdjNWJhMWU4YjM4Njg2ZWZhNjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.U4BttXTH8su4DXX9Har4seVvNsfSGeK-8MLbl90hXn8",
       "description": "Judge1 is a code execution engine that can run code in a containerized manner."

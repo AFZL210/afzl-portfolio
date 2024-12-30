@@ -20,12 +20,12 @@ const FeaturedProject: React.FC<FeaturedProjectI> = (props) => {
             </div>
           </Link>
 
-          <Link href={props.demoUrl} target='_blank' className='w-[45%] py-1 flex items-center justify-center'>
+          {props.demoUrl && <Link href={props.demoUrl} target='_blank' className='w-[45%] py-1 flex items-center justify-center'>
             <div className={`w-[100%] py-1 rounded-[.8rem] cursor-pointer flex items-center justify-center gap-2 border`}>
               <GlobeIcon />
               <span>Demo</span>
             </div>
-          </Link>
+          </Link>}
         </div>
         <div className='w-[100%] flex items-start justify-center gap-3 mt-2'>
           {props.tech.map((t, index) => { return <span key={index} className='text-[#a29a59]'>{t}</span> })}

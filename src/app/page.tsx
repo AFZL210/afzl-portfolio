@@ -23,7 +23,7 @@ export interface ExperienceData {
 }
 
 export interface FeaturedProjectI {
-  demoUrl: string,
+  demoUrl: string | null,
   githubUrl: string,
   subHeading: string,
   heading: string,
