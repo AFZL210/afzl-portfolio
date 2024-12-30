@@ -116,7 +116,7 @@ export default function Home() {
       <section className="w-full flex justify-center items-center mt-20">
         <div className="flex items-center gap-2 text-lg">
           <EnvelopeClosedIcon className="w-[20px] h-[20px]" />
-          <span>{data.email}</span>
+          <a href={`mailto:${data.email}`} className="hover:underline">{data.email}</a>
         </div>
       </section>
     </div>
