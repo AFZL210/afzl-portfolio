@@ -9,7 +9,7 @@ const FeaturedProject: React.FC<FeaturedProjectI> = (props) => {
       <h1 className='font-bold text-xl'>{props.heading}</h1>
       <div className={`mt-2 w-[100%] h-[24rem] md:h-[32rem] flex flex-col boxshadow-one px-3 rounded-md gap-4 items-center justify-center`}>
         <div className='w-[90%] mx-auto h-[10rem] md:h-[20rem]'>
-          <video autoPlay src={props.video} className='w-[100%] h-[100%]' />
+          <video autoPlay loop src={props.video} className='w-[100%] h-[100%]' />
         </div>
         <span>{props.description}</span>
         <div className='w-[100%] flex flex-wrap items-center justify-around'>
