@@ -4,35 +4,52 @@ import { FeaturedProjectI } from "@/app/page";
 
 const FeaturedProject: React.FC<FeaturedProjectI> = (props) => {
     return (
-        <div className='flex flex-col w-[100%] items-start'>
-      <span className='text-[#a29a59]'>{props.subHeading}</span>
-      <h1 className='font-bold text-xl'>{props.heading}</h1>
-      <div className={`mt-2 w-[100%] h-[24rem] md:h-[32rem] flex flex-col boxshadow-one px-3 rounded-md gap-4 items-center justify-center`}>
-        <div className='w-[90%] mx-auto h-[10rem] md:h-[20rem]'>
-          <video autoPlay loop src={props.video} className='w-[100%] h-[100%]' />
-        </div>
-        <span>{props.description}</span>
-        <div className='w-[100%] flex flex-wrap items-center justify-around'>
-          <Link href={props.githubUrl} target='_blank' className='w-[45%] py-1 flex items-center justify-center'>
-            <div className={`w-[100%] py-1 rounded-[.8rem] cursor-pointer flex items-center justify-center gap-2 border`}>
-              <GitHubLogoIcon />
-              <span>GitHub</span>
-            </div>
-          </Link>
+        <div className="flex flex-col w-full items-start">
+            <span className="text-[#a29a59]">{props.subHeading}</span>
+            <h1 className="font-bold text-xl">{props.heading}</h1>
+            <div className="mt-2 w-full flex flex-col boxshadow-one px-3 py-3 rounded-md gap-4">
+                <div className="flex flex-row items-start gap-4">
+                    <div className="w-[50%]">
+                        <video autoPlay loop src={props.video} className="w-full h-auto rounded-md" />
+                    </div>
+                    <div className="w-[50%]">
+                        <span className="text-sm">{props.description}</span>
+                    </div>
+                </div>
+                
+                <div className="flex flex-row justify-between items-center">
+                    <div className="flex flex-row gap-2">
+                        <Link href={props.githubUrl} target="_blank" className="flex items-center">
+                            <div className="py-1 px-3 rounded-md cursor-pointer flex items-center gap-2 border">
+                                <GitHubLogoIcon />
+                                <span>GitHub</span>
+                            </div>
+                        </Link>
 
-          {props.demoUrl && <Link href={props.demoUrl} target='_blank' className='w-[45%] py-1 flex items-center justify-center'>
-            <div className={`w-[100%] py-1 rounded-[.8rem] cursor-pointer flex items-center justify-center gap-2 border`}>
-              <GlobeIcon />
-              <span>Demo</span>
+                        {props.demoUrl && (
+                            <Link href={props.demoUrl} target="_blank" className="flex items-center">
+                                <div className="py-1 px-3 rounded-md cursor-pointer flex items-center gap-2 border">
+                                    <GlobeIcon />
+                                    <span>Live</span>
+                                </div>
+                            </Link>
+                        )}
+                    </div>
+                    
+                    <div className="flex flex-wrap gap-2">
+                        {props.tech.map((t, index) => (
+                            <span 
+                                key={index} 
+                                className="bg-gray-200 text-sm text-gray-700 px-2 py-1 rounded"
+                            >
+                                {t}
+                            </span>
+                        ))}
+                    </div>
+                </div>
             </div>
-          </Link>}
         </div>
-        <div className='w-[100%] flex items-start justify-center gap-3 mt-2'>
-          {props.tech.map((t, index) => { return <span key={index} className='text-[#a29a59]'>{t}</span> })}
-        </div>
-      </div>
-    </div>
-    )
-}
+    );
+};
 
 export default FeaturedProject;

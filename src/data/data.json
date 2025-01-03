@@ -9,7 +9,7 @@
       "demoUrl": null,
       "githubUrl": "https://github.com/AFZL210/Judge1",
       "tech": ["TypeScript", "Docker", "BullMQ", "PostgresQL", "Prisma"],
-      "video": "https://res.cloudinary.com/primeflix/video/upload/v1735655377/bbovf3wyymrb8pu9kq2q.mp4",
+      "video": "/static/judge1-vid.mp4",
       "description": "Judge1 is a code execution engine that can run code in a containerized manner."
     },
     {
@@ -18,7 +18,7 @@
       "demoUrl": "https://zip.afzl.tech/",
       "githubUrl": "https://github.com/AFZL210/ZipLink",
       "tech": ["Next.js", "TypeScript", "Prisma", "PostgresQL"],
-      "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706763/279118912-f1621859-7fa0-4bdd-be39-c8cc0e848f8f_y10rxm.mp4?_s=vp-1.7.0",
+      "video": "/static/ziplink.mp4",
       "description": "ZipLink is a feature-rich URL shortener and link management tool."
     },
     {
@@ -27,7 +27,7 @@
       "demoUrl": "https://github.com/AFZL210/TicTacToePro",
       "githubUrl": "https://github.com/AFZL210/TicTacToePro",
       "tech": ["WebSockets", "React.js", "Node.js"],
-      "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699706469/yudnbjqkdzpca1tnlx4k.mp4?_s=vp-1.7.0",
+      "video": "/static/tic.mp4",
       "description": "Unbeatable TicTacToe bot implemented with Minimax algorithm, and live PvP mode."
     },
     {
@@ -36,7 +36,7 @@
       "demoUrl": "https://blogg0-client.onrender.com/",
       "githubUrl": "hhttps://github.com/AFZL210/blogg0",
       "tech": ["NextJS", "TypeScript", "MongoDB"],
-      "video": "https://res.cloudinary.com/diijgtg7l/video/upload/v1699708086/253728976-1ca7939a-1300-4c0a-8e76-abb2b0f4c3d4_trcee0.webm?_s=vp-1.7.0",
+      "video": "/static/blogg0.mp4",
       "description": "Bloggo is a full stack blogging app , anyone can create and publish their own blog posts."
     }
   ],

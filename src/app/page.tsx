@@ -6,11 +6,11 @@ import {
   TwitterLogoIcon,
   StarFilledIcon,
   StarIcon,
-  EnvelopeClosedIcon, // Add EnvelopeClosedIcon from Radix Icons
+  EnvelopeClosedIcon,
 } from "@radix-ui/react-icons";
 import data from "@/data/data.json";
-import FeaturedProject from "@/components/ui/FeaturedProject";
 import Experience from "@/components/ui/Experience";
+import FeaturedProjectSection from "@/components/ui/FeaturedProjectsSection";
 
 export interface ExperienceData {
   companyLogo: string;
@@ -23,17 +23,18 @@ export interface ExperienceData {
 }
 
 export interface FeaturedProjectI {
-  demoUrl: string | null,
-  githubUrl: string,
-  subHeading: string,
-  heading: string,
-  description: string,
-  tech: string[],
-  video: string
+  demoUrl: string | null;
+  githubUrl: string;
+  subHeading: string;
+  heading: string;
+  description: string;
+  tech: string[];
+  video: string;
 }
 
 export default function Home() {
   const experience: ExperienceData[] = data.experience;
+
   return (
     <div className="w-full h-fit pt-16 flex flex-col items-start justify-start pb-6">
       <div className="w-full flex justify-between items-start mt-14">
@@ -42,7 +43,7 @@ export default function Home() {
             <h1 className="text-3xl">👋 Hello!</h1>
             <h1 className="text-3xl">I'm Afzal Khan</h1>
             <p className="font-medium">
-               software engineer and B.Tech undergraduate
+              software engineer and B.Tech undergraduate
             </p>
           </div>
           <div className="flex items-center gap-6 justify-around">
@@ -69,30 +70,12 @@ export default function Home() {
       <Experience experience={experience} />
 
       {/**FEATURED PROJECTS */}
-      <section id="featured-projects" className="w-full h-fit mt-20">
-        <div className="flex items-center justify-between mb-8">
-          <h1 className="text-2xl font-bold gradient-one">Projects</h1>
-          <div className={`w-[80%] h-[.12rem] bg-white`}></div>
-        </div>
-        <div className="flex flex-col gap-8">
-          {data.featuredProjects.map((project: FeaturedProjectI, index: number) => {
-            return (
-              <FeaturedProject
-                key={index}
-                demoUrl={project.demoUrl}
-                description={project.description}
-                githubUrl={project.githubUrl}
-                heading={project.heading}
-                subHeading={project.subHeading}
-                tech={project.tech}
-                video={project.video}
-              />
-            );
-          })}
-        </div>
-      </section>
+      <FeaturedProjectSection />
 
-      <section id="hackathons" className="w-[100%] flex flex-col items-start mt-10">
+      <section
+        id="hackathons"
+        className="w-[100%] flex flex-col items-start mt-10"
+      >
         <div className="w-[100%] flex items-center gap-10">
           <div className="w-fit flex items-center gap-2">
             <StarFilledIcon className="text-yellow-300" />
@@ -103,7 +86,10 @@ export default function Home() {
         <div className="w-[70%] flex flex-col gap-5 items-start mt-5">
           {data.hackathons.map((hackathon: string) => {
             return (
-              <div key={hackathon} className="flex items-center justify-start gap-3">
+              <div
+                key={hackathon}
+                className="flex items-center justify-start gap-3"
+              >
                 <StarIcon className="text-yellow-300" />
                 <span>{hackathon}</span>
               </div>
@@ -116,7 +102,9 @@ export default function Home() {
       <section className="w-full flex justify-center items-center mt-20">
         <div className="flex items-center gap-2 text-lg">
           <EnvelopeClosedIcon className="w-[20px] h-[20px]" />
-          <a href={`mailto:${data.email}`} className="hover:underline">{data.email}</a>
+          <a href={`mailto:${data.email}`} className="hover:underline">
+            {data.email}
+          </a>
         </div>
       </section>
     </div>
