@@ -102,6 +102,15 @@
   "resume": "https://drive.google.com/file/d/1E5jrAqLLtM-eh9SW8b2yfGZ_B8xvy5dj/view?usp=sharing",
   "experience": [
     {
+      "companyLogo": "/static/amzn-logo.webp",
+      "companyName": "Amazon",
+      "position": "Software Dev Engineer Intern",
+      "start": "Jan 2025",
+      "end": "Present",
+      "description": "Working in the Relay Product and Tech team as an SDE intern.",
+      "technologies": ["AWS", "Java"]
+    },
+    {
       "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1732370876/ofbbhsw167aj2qzuuun7.webp",
       "companyName": "Zenskar",
       "position": "Frontend Engineer Intern",
