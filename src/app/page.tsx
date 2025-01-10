@@ -54,7 +54,7 @@ export default function Home() {
               <LinkedInLogoIcon className="w-[24px] h-[24px]" />
             </Link>
             
-          </div>
+          
         </div>
         <Image
           alt="img"
