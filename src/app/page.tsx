@@ -53,9 +53,7 @@ export default function Home() {
             <Link href={data.linkedin} target="_blank">
               <LinkedInLogoIcon className="w-[24px] h-[24px]" />
             </Link>
-            <Link href={data.twitter} target="_blank">
-              <TwitterLogoIcon className="w-[24px] h-[24px]" />
-            </Link>
+            
           </div>
         </div>
         <Image
