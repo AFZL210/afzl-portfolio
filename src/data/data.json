@@ -103,11 +103,11 @@
     {
       "companyLogo": "/static/amzn-logo.webp",
       "companyName": "Amazon",
-      "position": "Software Dev Engineer Intern",
+      "position": "Software Engineer Intern",
       "start": "Jan 2025",
       "end": "Present",
       "description": "Working in the Relay Product and Tech team as an SDE intern.",
-      "technologies": ["AWS", "Java"]
+      "technologies": ["Java", "JUnit", "CDK", "AWS"]
     },
     {
       "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1732370876/ofbbhsw167aj2qzuuun7.webp",
@@ -137,5 +137,5 @@
       "technologies": ["React.js", "JavaScript", "MongoDB", "Express"]
     }
   ],
-  "email": "ak341668@gmail.com"
+  "email": "afzalkhanmait@gmail.com"
 }
