@@ -10,15 +10,27 @@ import {
 import data from "@/data/data.json";
 import Experience from "@/components/ui/Experience";
 import FeaturedProjectSection from "@/components/ui/FeaturedProjectsSection";
+import Education from "@/components/ui/Education"; // ✅ import added
 
 export interface ExperienceData {
   companyLogo: string;
   companyName: string;
-  position: string;
+  roles: {
+    position: string;
+    start: string;
+    end: string;
+    description: string;
+    technologies: string[];
+  }[];
+}
+
+export interface EducationData {
+  institutionLogo: string;
+  institutionName: string;
+  degree: string;
   start: string;
   end: string;
   description: string;
-  technologies: string[];
 }
 
 export interface FeaturedProjectI {
@@ -33,6 +45,7 @@ export interface FeaturedProjectI {
 
 export default function Home() {
   const experience: ExperienceData[] = data.experience;
+  const education: EducationData[] = data.education; // ✅ education loaded
 
   return (
     <div className="w-full h-fit pt-16 flex flex-col items-start justify-start pb-6">
@@ -42,7 +55,7 @@ export default function Home() {
             <h1 className="text-3xl">👋 Hello!</h1>
             <h1 className="text-3xl">I'm Afzal Khan</h1>
             <p className="font-medium">
-              software engineer and B.Tech undergraduate
+              software engineer
             </p>
           </div>
           <div className="flex items-center gap-6 justify-around">
@@ -52,7 +65,7 @@ export default function Home() {
             <Link href={data.linkedin} target="_blank">
               <LinkedInLogoIcon className="w-[24px] h-[24px]" />
             </Link>
-            </div>      
+          </div>
         </div>
         <Image
           alt="img"
@@ -64,8 +77,8 @@ export default function Home() {
       </div>
 
       <Experience experience={experience} />
+      <Education education={education} />
 
-      {/**FEATURED PROJECTS */}
       <FeaturedProjectSection />
 
       <section
@@ -77,24 +90,22 @@ export default function Home() {
             <StarFilledIcon className="text-yellow-300" />
             <h1 className="font-bold text-2xl gradient-one">Hackathons</h1>
           </div>
-          <div className={`w-[80%] h-[.12rem] bg-white`}></div>
+          <div className={`w-[80%] h-[.12rem] bg-white`} />
         </div>
         <div className="w-[70%] flex flex-col gap-5 items-start mt-5">
-          {data.hackathons.map((hackathon: string) => {
-            return (
-              <div
-                key={hackathon}
-                className="flex items-center justify-start gap-3"
-              >
-                <StarIcon className="text-yellow-300" />
-                <span>{hackathon}</span>
-              </div>
-            );
-          })}
+          {data.hackathons.map((hackathon: string) => (
+            <div
+              key={hackathon}
+              className="flex items-center justify-start gap-3"
+            >
+              <StarIcon className="text-yellow-300" />
+              <span>{hackathon}</span>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/** CONTACT SECTION */}
+      {/* Contact */}
       <section className="w-full flex justify-center items-center mt-20">
         <div className="flex items-center gap-2 text-lg">
           <EnvelopeClosedIcon className="w-[20px] h-[20px]" />

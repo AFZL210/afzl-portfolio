@@ -103,38 +103,79 @@
     {
       "companyLogo": "/static/amzn-logo.webp",
       "companyName": "Amazon",
-      "position": "Software Engineer Intern",
-      "start": "Jan 2025",
-      "end": "Present",
-      "description": "Working in the Relay Product and Tech team as an SDE intern.",
-      "technologies": ["Java", "JUnit", "CDK", "AWS"]
+      "roles": [
+        {
+          "position": "Software Dev Engineer",
+          "start": "Jul 2025",
+          "end": "Present",
+          "description": "Working on scalable backend systems in the Relay Product and Tech team.",
+          "technologies": ["Java", "Python", "Microservices", "AWS"]
+        },
+        {
+          "position": "Software Dev Engineer Intern",
+          "start": "Jan 2025",
+          "end": "Jun 2025",
+          "description": "Worked in the Relay Product and Tech team as an SDE intern.",
+          "technologies": ["Java", "Python", "Microservices", "AWS"]
+        }
+      ]
     },
     {
       "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1732370876/ofbbhsw167aj2qzuuun7.webp",
       "companyName": "Zenskar",
-      "position": "Frontend Engineer Intern",
-      "start": "Oct 2024",
-      "end": "Dec 2024",
-      "description": "Worked on creating intuitive interfaces for a modern quote-to-cash platform.",
-      "technologies": ["React.js", "TypeScript", "TailwindCSS"]
+      "roles": [
+        {
+          "position": "Frontend Engineer Intern",
+          "start": "Oct 2024",
+          "end": "Dec 2024",
+          "description": "Worked on creating intuitive interfaces for a modern quote-to-cash platform.",
+          "technologies": ["React.js", "TypeScript", "TailwindCSS"]
+        }
+      ]
     },
     {
       "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1725892658/blcoak3et6bsgwbta5hn.png",
       "companyName": "Google Summer of Code - Oppia",
-      "position": "Student Developer",
-      "start": "May 2024",
-      "end": "Aug 2024",
-      "description": "Worked on multiple classrooms feature, created an admin dashboard, learner-facing pages, and UI components.",
-      "technologies": ["Angular", "TypeScript", "Python"]
+      "roles": [
+        {
+          "position": "Student Developer",
+          "start": "May 2024",
+          "end": "Aug 2024",
+          "description": "Worked on multiple classrooms feature, created an admin dashboard, learner-facing pages, and UI components.",
+          "technologies": ["Angular", "TypeScript", "Python"]
+        }
+      ]
     },
     {
       "companyLogo": "https://res.cloudinary.com/primeflix/image/upload/v1725893356/nbtpu9j4yh8osrnucabz.png",
       "companyName": "Tripo Saints",
-      "position": "Full Stack Developer Intern",
-      "start": "Mar 2023",
+      "roles": [
+        {
+          "position": "Full Stack Developer Intern",
+          "start": "Mar 2023",
+          "end": "Jun 2023",
+          "description": "Designed RESTful APIs with Node.js, used Redis for caching, and created responsive pages with React.js and Tailwind CSS.",
+          "technologies": ["React.js", "JavaScript", "MongoDB", "Express"]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institutionLogo": "/static/mait-logo.png",
+      "institutionName": "Maharaja Agrasen Institute of Technology",
+      "degree": "B.Tech in Information Technology",
+      "start": "Aug 2019",
       "end": "Jun 2023",
-      "description": "Designed RESTful APIs with Node.js, used Redis for caching, and created responsive pages with React.js and Tailwind CSS.",
-      "technologies": ["React.js", "JavaScript", "MongoDB", "Express"]
+      "description": "Graduated with a CGPA of 9 out of 10 in Information Technology."
+    },
+    {
+      "institutionLogo": "/static/cbse-logo.png",
+      "institutionName": "CBSE Board",
+      "degree": "Class 12th",
+      "start": "Apr 2018",
+      "end": "Mar 2019",
+      "description": "Completed CBSE Class 12th with 89% aggregate."
     }
   ],
   "email": "ak341668@gmail.com"
