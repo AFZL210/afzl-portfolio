@@ -165,16 +165,16 @@
       "institutionLogo": "/static/mait-logo.png",
       "institutionName": "Maharaja Agrasen Institute of Technology",
       "degree": "B.Tech in Information Technology",
-      "start": "Aug 2019",
-      "end": "Jun 2023",
+      "start": "Dec 2021",
+      "end": "May 2025",
       "description": "Graduated with a CGPA of 9 out of 10 in Information Technology."
     },
     {
       "institutionLogo": "/static/cbse-logo.png",
       "institutionName": "CBSE Board",
       "degree": "Class 12th",
-      "start": "Apr 2018",
-      "end": "Mar 2019",
+      "start": "Apr 2020",
+      "end": "May 2021",
       "description": "Completed CBSE Class 12th with 89% aggregate."
     }
   ],
